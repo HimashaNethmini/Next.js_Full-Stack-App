@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 import Hero from "public/hero.png"
+import Button from '@/components/Button/Button'
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
           Creating free space virtual reality by binding 
           external entities in the world of IT.
         </p>
-        <button className={styles.button}> Similar works</button>
+        <Button url="/portfolio" text="Similar Works"/>
       </div>
       <div className={styles.item}>
         <Image src={Hero} alt="Homepage" className={styles.img} />
