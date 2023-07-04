@@ -19,7 +19,7 @@ const About = () => {
             Digital Storytellers
           </h1>
 
-          <h2 className={styles.imgText}>
+          <h2 className={styles.imgDesc}>
             Handcrafting award winning digital experiences
           </h2>
 
