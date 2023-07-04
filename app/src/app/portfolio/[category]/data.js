@@ -1,5 +1,5 @@
 export const items = {
-    applications: [
+    Applications: [
       {
         id: 1,
         title: "Creative Portfolio",
@@ -44,7 +44,7 @@ export const items = {
           "https://images.pexels.com/photos/2916450/pexels-photo-2916450.jpeg",
       }
     ],
-    websites: [
+    Websites: [
       {
         id: 1,
         title: "Creative Portfolio",
