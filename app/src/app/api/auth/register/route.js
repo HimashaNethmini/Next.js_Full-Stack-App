@@ -7,7 +7,7 @@ export const POST = async (request) => {
   const { name, email, password } = await request.json();
 
   await connect();
-
+//salt value
   const hashedPassword = await bcrypt.hash(password, 5);
 
   const newUser = new User({
@@ -26,5 +26,5 @@ export const POST = async (request) => {
       status: 500,
     });
   }
-  
+
 };
