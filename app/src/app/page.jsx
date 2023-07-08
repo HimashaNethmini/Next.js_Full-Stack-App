@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <div className={styles.item}>
-        <h1 className={styles.title}>Your view my view on products</h1>
+        <h1 className={styles.title}>Amazed by your views on products</h1>
         <p className={styles.description}>
           Creating free space virtual reality by binding 
           external entities in the world of IT.
